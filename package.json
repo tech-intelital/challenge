@@ -1,0 +1,18 @@
+{
+  "name": "ecological-competition-mapper",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "setup-db": "node scripts/setup-neo4j.js",
+    "load-data": "node scripts/load-data.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "neo4j-driver": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.0",
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
